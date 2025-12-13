@@ -129,6 +129,8 @@ This repository contains the merged catalog of lens, source, and microlensing ma
 
 ---
 
+### TODO
+add parameters from lensmodel
 
 ### Usage
 
