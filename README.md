@@ -97,7 +97,7 @@ This repository contains the merged catalog of lens, source, and microlensing ma
 |---|---|---|
 | `num_bins` | Number of bins used in histograms | integer |
 | `mean_edges` | Mean of Δmag histogram (signed) | mag |
-| `mean_abs_edges` | Mean of |Δmag| histogram | mag |
+| `mean_abs_edges` | Mean of $\lvert \Delta \mathrm{mag} \rvert$ histogram | mag |
 | `mean_positive_edges` | Mean of Δmag for Δmag > 0 | mag |
 | `mean_negative_edges` | Mean of Δmag for Δmag < 0 | mag |
 | `prob_mag_less_than_n032_edges` | P(Δmag < −0.32) | probability |
