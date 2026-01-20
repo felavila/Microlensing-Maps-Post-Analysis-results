@@ -128,12 +128,31 @@ This repository contains the merged catalog of lens, source, and microlensing ma
 > Wavelength-dependent sizes follow the adopted accretion-disk scaling (e.g., \( R \propto \lambda^{p} \)) and are adjusted to rest-frame where indicated by `/(1+zs)`.
 
 ---
+### Model params 
 
-### TODO
-add parameters from lensmodel
+For a complete description of the parameters, see the official
+[Lensmodel manual](https://www.physics.rutgers.edu/~keeton/gravlens/manual.pdf).
+
+
+| Column    | Description                      | Units / Type |
+| --------- | -------------------------------- | ------------ |
+| `name`    | System identifier (primary)      | string       |
+| `profile` | Lens mass profile / model family | string       |
+| `p[1]_q25`, `p[1]_q50`, `p[1]_q75`    | 25th, 50th (median), 75th percentiles of parameter p[1] | float |
+| `p[2]_q25`, `p[2]_q50`, `p[2]_q75`    | 25th, 50th, 75th percentiles of parameter p[2]          | float |
+| `p[3]_q25`, `p[3]_q50`, `p[3]_q75`    | 25th, 50th, 75th percentiles of parameter p[3]          | float |
+| `p[4]_q25`, `p[4]_q50`, `p[4]_q75`    | 25th, 50th, 75th percentiles of parameter p[4]          | float |
+| `p[5]_q25`, `p[5]_q50`, `p[5]_q75`    | 25th, 50th, 75th percentiles of parameter p[5]          | float |
+| `p[6]_q25`, `p[6]_q50`, `p[6]_q75`    | 25th, 50th, 75th percentiles of parameter p[6]          | float |
+| `p[7]_q25`, `p[7]_q50`, `p[7]_q75`    | 25th, 50th, 75th percentiles of parameter p[7]          | float |
+| `p[8]_q25`, `p[8]_q50`, `p[8]_q75`    | 25th, 50th, 75th percentiles of parameter p[8]          | float |
+| `p[9]_q25`, `p[9]_q50`, `p[9]_q75`    | 25th, 50th, 75th percentiles of parameter p[9]          | float |
+| `p[10]_q25`, `p[10]_q50`, `p[10]_q75` | 25th, 50th, 75th percentiles of parameter p[10]         | float |
+
 
 ### Usage
 
 ```python
 import pandas as pd
 df = pd.read_csv("table_result_microlensing_timscales_and_probabilities.csv")
+df = pd.read_csv("mcmc_quartiles_by_object.csv")
