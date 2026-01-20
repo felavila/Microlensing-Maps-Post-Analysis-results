@@ -2,15 +2,15 @@
 
 ## Microlensing Maps Post-Analysis — Data Dictionary
 
-This repository contains the merged catalog of lens, source, and microlensing map–level quantities used in the analysis. The tables below document each column.
+This repository contains the merged catalog of lens, source, and microlensing map–level quantities used in the analysis and lensmodel statistics. The tables below document each column.
 
 > **Citation / Paper placeholder**  
 > *Paper:* **TBD — add title, authors, year**  
 > *DOI:* **TBD** · *ADS bibcode:* **TBD**
 
 > **Photometry & references**  
-> Reference photometry for all objects is available at:  
-> https://github.com/felavila/qumas/tree/main/qumas/Tables
+> The photometry and information for all objects is available at:  
+> [qumas tables ](https://github.com/felavila/qumas/tree/main/qumas/Tables)
 
 ---
 
@@ -125,13 +125,13 @@ This repository contains the merged catalog of lens, source, and microlensing ma
 | `ref_wavelength(A)` | Reference wavelength used for scaling | Å |
 
 > **Notes on rescalings**  
-> Wavelength-dependent sizes follow the adopted accretion-disk scaling (e.g., \( R \propto \lambda^{p} \)) and are adjusted to rest-frame where indicated by `/(1+zs)`.
+> Wavelength-dependent sizes follow the adopted accretion-disk scaling (e.g., $R \propto \lambda^{p}$) and are adjusted to rest-frame where indicated by `/(1+zs)`.
 
 ---
 ### Model params 
 
 For a complete description of the parameters, see the official
-[Lensmodel manual](https://www.physics.rutgers.edu/~keeton/gravlens/manual.pdf).
+Lensmodel/Gravlens [manual](https://www.physics.rutgers.edu/~keeton/gravlens/manual.pdf).
 
 
 | Column    | Description                      | Units / Type |
@@ -149,7 +149,7 @@ For a complete description of the parameters, see the official
 | `p[9]_q25`, `p[9]_q50`, `p[9]_q75`    | 25th, 50th, 75th percentiles of parameter p[9]          | float |
 | `p[10]_q25`, `p[10]_q50`, `p[10]_q75` | 25th, 50th, 75th percentiles of parameter p[10]         | float |
 
-
+---
 ### Usage
 
 ```python
