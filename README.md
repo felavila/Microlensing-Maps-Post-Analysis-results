@@ -4,9 +4,10 @@
 
 This repository contains the merged catalog of lens, source, and microlensing map–level quantities used in the analysis and lensmodel statistics. The tables below document each column.
 
-> **Citation / Paper placeholder**  
-> *Paper:* **TBD — add title, authors, year**  
-> *DOI:* **TBD** · *ADS bibcode:* **TBD**
+## Citation
+Paper: Microlensing time-scales and flux magnification probabilities of a sample of 204 lensed quasars
+Authors: Ávila-Vera, F., Motta, V., & Mediavilla, E. (2026)
+[ADS link](https://ui.adsabs.harvard.edu/abs/2026arXiv260503905A/exportcitation)
 
 > **Photometry & references**  
 > The photometry and information for all objects is available at:  
